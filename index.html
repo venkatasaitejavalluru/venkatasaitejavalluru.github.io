@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Venkata Sai Teja Valluru - AI, Machine Learning and Data Analytics professional with 5+ years of experience at Wipro and startups.">
+<title>Venkata Sai Teja Valluru | AI, ML &amp; Data Analytics</title>
+<style>
+:root{--bg:#f7f8fb;--card:#fff;--text:#14161c;--muted:#5b6070;--accent:#4f46e5;--accent2:#06b6d4;--line:#e3e6ee;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b0d14;--card:#141824;--text:#eef0f6;--muted:#9aa1b5;--accent:#8b8cff;--accent2:#22d3ee;--line:#232940}}
+:root[data-theme="dark"]{--bg:#0b0d14;--card:#141824;--text:#eef0f6;--muted:#9aa1b5;--accent:#8b8cff;--accent2:#22d3ee;--line:#232940}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.65}
+.wrap{max-width:1000px;margin:0 auto;padding:0 22px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:58px}
+nav a{color:var(--muted);text-decoration:none;margin-left:20px;font-size:.9rem;font-weight:500}nav a:hover{color:var(--accent)}
+nav .logo{color:var(--text);font-weight:800;margin:0;letter-spacing:-.02em}
+.hero{padding:96px 0 56px;position:relative}
+.hero:before{content:"";position:absolute;inset:-40px -20px auto auto;width:380px;height:380px;background:radial-gradient(circle,var(--accent) 0,transparent 65%);opacity:.14;z-index:-1}
+.pill{display:inline-block;padding:5px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);font-size:.82rem;color:var(--muted)}
+.pill b{color:#16a34a}
+h1{font-size:clamp(2.3rem,7vw,4rem);line-height:1.06;margin:18px 0 14px;letter-spacing:-.03em}
+.grad{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--muted);font-size:1.15rem;max-width:600px;margin:0}
+.btn{display:inline-block;margin:24px 10px 0 0;padding:12px 24px;border-radius:10px;background:linear-gradient(90deg,var(--accent),var(--accent2));color:#fff;text-decoration:none;font-weight:600}
+.btn.alt{background:var(--card);color:var(--text);border:1px solid var(--line)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:48px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.stat b{display:block;font-size:1.9rem;letter-spacing:-.02em}.stat span{color:var(--muted);font-size:.88rem}
+section{padding:56px 0}
+.eyebrow{color:var(--accent);font-weight:700;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase}
+h2{font-size:1.9rem;margin:6px 0 26px;letter-spacing:-.02em}
+.about{color:var(--muted);max-width:680px;font-size:1.05rem}
+.sk{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.skg{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.skg h4{margin:0 0 10px;font-size:.95rem}
+.skg span{display:inline-block;margin:0 6px 6px 0;padding:4px 11px;border-radius:999px;background:var(--bg);border:1px solid var(--line);font-size:.82rem}
+.job{border-left:2px solid var(--line);padding:0 0 30px 24px;position:relative;margin-left:6px}
+.job:before{content:"";position:absolute;left:-7px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px var(--bg)}
+.job h3{margin:0;font-size:1.1rem}.when{color:var(--accent);font-size:.85rem;font-weight:600;margin:2px 0 8px}
+.job ul{margin:0;padding-left:18px;color:var(--muted)}.job li{margin-bottom:5px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.filters button{font:inherit;font-size:.85rem;padding:6px 16px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--text);cursor:pointer}
+.filters button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;display:flex;flex-direction:column;transition:.18s}
+.card:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:0 12px 30px -16px var(--accent)}
+.card h3{margin:0 0 4px}.cat{font-size:.75rem;color:var(--accent2);font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+.card p{color:var(--muted);margin:10px 0;font-size:.94rem}
+.res{font-size:.88rem;border-left:3px solid var(--accent);padding-left:10px;margin:4px 0 14px}
+.tech{display:flex;flex-wrap:wrap;gap:6px;margin:auto 0 14px}.tech span{font-size:.75rem;background:var(--bg);color:var(--muted);padding:3px 9px;border-radius:6px}
+.links a{color:var(--accent);text-decoration:none;font-weight:600;font-size:.9rem;margin-right:16px}
+.edu{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.edu h3{margin:0}.edu p{margin:4px 0 0;color:var(--muted)}
+.contact{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:50px 22px}
+.contact p{color:var(--muted);max-width:480px;margin:0 auto}
+footer{padding:30px 0;text-align:center;color:var(--muted);font-size:.85rem}
+.rv{opacity:0;transform:translateY(16px);transition:.6s}.rv.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><a class="logo" href="#top">VST<span class="grad">.</span></a>
+<div><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="wrap hero" id="top">
+<span class="pill"><b>&#9679;</b> Open to AI / ML / Data Analytics roles</span>
+<h1>Hi, I'm <span class="grad">Venkata Sai Teja Valluru</span></h1>
+<p>AI &amp; Machine Learning engineer and data analyst with 5+ years at Wipro and startups. I turn raw data into models and insights that drive business decisions.</p>
+<a class="btn" href="#projects">View my work</a><a class="btn alt" href="resume.pdf">Download resume</a>
+<div class="stats">
+<div class="stat"><b>5+</b><span>Years of experience</span></div>
+<div class="stat"><b>MS</b><span>Data Analytics</span></div>
+<div class="stat"><b>Wipro</b><span>+ Startup experience</span></div>
+<div class="stat"><b>AI &middot; ML</b><span>End-to-end delivery</span></div>
+</div>
+</header>
+
+<section class="wrap rv" id="about">
+<div class="eyebrow">About</div><h2>What I do</h2>
+<p class="about">I hold a Master's degree in Data Analytics and have worked across large enterprise (Wipro) and fast-moving startup environments. I cover the full data lifecycle: collecting and cleaning data, building and evaluating machine learning models, deploying them, and communicating results through dashboards and clear stories for non-technical teams.</p>
+</section>
+
+<section class="wrap rv" id="skills">
+<div class="eyebrow">Skills</div><h2>Tech stack</h2>
+<div class="sk" id="sk"></div>
+</section>
+
+<section class="wrap rv" id="experience">
+<div class="eyebrow">Experience</div><h2>Where I've worked</h2>
+<div id="exp"></div>
+</section>
+
+<section class="wrap rv" id="projects">
+<div class="eyebrow">Projects</div><h2>Selected work</h2>
+<div class="filters" id="flt"></div>
+<div class="grid" id="grid"></div>
+</section>
+
+<section class="wrap rv" id="education">
+<div class="eyebrow">Education</div><h2>Background</h2>
+<div class="edu"><h3>Master's in Data Analytics</h3><p>University Name &middot; Year (replace)</p></div>
+</section>
+
+<section class="wrap rv" id="contact">
+<div class="contact"><div class="eyebrow">Contact</div><h2>Let's work together</h2>
+<p>I'm open to full-time roles in AI, Machine Learning and Data Analytics. Feel free to reach out.</p>
+<a class="btn" href="mailto:you@email.com">you@email.com</a><a class="btn alt" href="https://github.com/venkatasaitejavalluru">GitHub</a><a class="btn alt" href="https://linkedin.com/in/">LinkedIn</a></div>
+</section>
+<footer>&copy; 2026 Venkata Sai Teja Valluru</footer>
+
+<script>
+/* ===== EDIT YOUR CONTENT HERE ===== */
+const skills={
+ "Programming":["Python","SQL","R","Bash"],
+ "ML & AI":["Scikit-learn","TensorFlow","PyTorch","XGBoost","NLP","Deep Learning","LLMs / GenAI"],
+ "Data & BI":["Pandas","NumPy","Power BI","Tableau","Excel","Statistics","A/B Testing"],
+ "Cloud & Tools":["AWS","Docker","Git","Airflow","Jupyter","MLflow"]
+};
+const jobs=[
+ {role:"Data Scientist / ML Engineer (replace)",co:"Startup Name",when:"2023 - Present",pts:["Built and deployed ML models that improved [metric] by X%.","Designed data pipelines and dashboards used by [team].","Partnered with product and business teams to turn problems into data solutions."]},
+ {role:"Analyst / Engineer (replace)",co:"Wipro",when:"2019 - 2023",pts:["Delivered analytics and data solutions for [client / domain].","Automated reporting, saving X hours per week.","Worked with onsite and offshore teams on enterprise-scale projects."]}
+];
+const projects=[
+ {name:"Predictive ML Model (replace)",cat:"Machine Learning",desc:"Built a model to predict an outcome (churn, sales, risk) from real data, with feature engineering and cross-validation.",result:"Result: e.g. 92% accuracy, +15% over baseline.",tech:["Python","Scikit-learn","Pandas"],live:"#",code:"#"},
+ {name:"Business Dashboard (replace)",cat:"Data Analytics",desc:"Cleaned a large dataset and built an interactive dashboard showing key business metrics and trends.",result:"Result: e.g. cut reporting time by 50%.",tech:["SQL","Power BI","Excel"],live:"#",code:"#"},
+ {name:"NLP / Deep Learning (replace)",cat:"AI",desc:"Trained a neural network for text or image tasks such as sentiment analysis or classification.",result:"Result: e.g. 90% F1-score on test data.",tech:["TensorFlow","NLP","Python"],live:"#",code:"#"}
+];
+/* ================================== */
+document.getElementById("sk").innerHTML=Object.entries(skills).map(([k,v])=>`<div class="skg"><h4>${k}</h4>${v.map(s=>`<span>${s}</span>`).join("")}</div>`).join("");
+document.getElementById("exp").innerHTML=jobs.map(j=>`<div class="job"><h3>${j.role}</h3><div class="when">${j.co} &middot; ${j.when}</div><ul>${j.pts.map(x=>`<li>${x}</li>`).join("")}</ul></div>`).join("");
+const cats=["All",...new Set(projects.map(p=>p.cat))];let cur="All";
+function draw(){
+ document.getElementById("flt").innerHTML=cats.map(c=>`<button class="${c===cur?"on":""}" data-c="${c}">${c}</button>`).join("");
+ document.getElementById("grid").innerHTML=projects.filter(p=>cur==="All"||p.cat===cur).map(p=>`<article class="card"><span class="cat">${p.cat}</span><h3>${p.name}</h3><p>${p.desc}</p><div class="res">${p.result}</div><div class="tech">${p.tech.map(t=>`<span>${t}</span>`).join("")}</div><div class="links"><a href="${p.live}">Live demo</a><a href="${p.code}">Source code</a></div></article>`).join("");
+ document.querySelectorAll("#flt button").forEach(b=>b.onclick=()=>{cur=b.dataset.c;draw()});
+}
+draw();
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add("in")}),{threshold:.08});
+document.querySelectorAll(".rv").forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
